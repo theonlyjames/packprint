@@ -140,10 +140,16 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  top: 0;
   padding: 15px;
   background: $grayDark;
-  background: rgba(0,0,0,.75);
+  background: rgba(0,0,0,.6);
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .carousel-caption h4,
 .carousel-caption p {
