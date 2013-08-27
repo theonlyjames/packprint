@@ -8,15 +8,16 @@ module.exports = function(grunt) {
 		      style: 'expanded'
 		    },
 		    files: {                         // Dictionary of files
-		      'css/*.css': 'sass/*.scss'       // 'destination': 'source'
+		      'css/bootstrap.css': 'sass/bootstrap.scss',       // 'destination': 'source'
+		      'css/bootstrap-responsive.css': 'sass/bootstrap-responsive.scss'       // 'destination': 'source'
 		    }
 		  }
 		},
 		watch: {
 		  sass: {
 		    // We watch and compile sass files as normal but don't live reload here
-		    files: ['scss/*.scss'],
-		    tasks: ['scss'],
+		    files: ['sass/*.scss'],
+		    tasks: ['sass'],
 		  },
 		  livereload: {
 		    // Here we watch the files the sass task will compile to
@@ -29,14 +30,14 @@ module.exports = function(grunt) {
 		  dist: {                   // Target
 		    options: {              // Target options
 		    	config: 'config.rb',
-		      sassDir: 'scss',
+		      sassDir: 'sass',
 		      cssDir: 'css',
 		      environment: 'production'
 		    }
 		  },
 		  dev: {                    // Another target
 		    options: {
-		      sassDir: 'scss',
+		      sassDir: 'sass',
 		      cssDir: 'css'
 		    }
 		  }
