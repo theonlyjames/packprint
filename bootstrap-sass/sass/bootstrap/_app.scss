@@ -1,0 +1,28 @@
+// Custom Styles
+
+// Nav
+.navbar:first-child {
+  border-bottom: 1px solid #999;
+}
+.top-40 {
+  top: 42px;
+}
+
+.lrPad15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.hero-unit.lessPad {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-bottom: 0px;
+  h3 {
+    text-align: center;
+  }
+}
+

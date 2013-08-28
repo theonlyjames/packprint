@@ -10,16 +10,16 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--link rel="stylesheet" href="css/bootstrap.min.css"-->
         <style>
             body {
-                padding-top: 40px;
+                padding-top: 80px;
                 padding-bottom: 40px;
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap.css">
         <!--link rel="stylesheet" href="css/current.min.css"-->
-        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -28,8 +28,20 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
+        
         <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                  <a class="brand lrPad15">Pack Print Group</a>
+                  <div class="pull-right">
+                    <button type="button" class="btn btn-primary">Specials</button>
+                    <button type="button" class="btn btn-info">Contact</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar navbar-inverse navbar-fixed-top top-40">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -37,31 +49,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Pack Print Group</a>
+                    <!--a class="brand" href="#">Pack Print Group</a-->
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li id="home" class="active"><a href="#">Home</a></li>
+                            <li id="home" class="active"><a href="#home">Home</a></li>
                             <li id="packaging"><a href="#packaging">Packaging</a></li>
                             <li id="printing"><a href="#printing">Printing</a></li>
                             <li id="displays"><a href="#displays">Displays</a></li>
                             <li id="packaging"><a href="#packaging">Warehousing Specialties</a></li>
                             <li id="showcase"><a href="#showcase">Showcase</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
+                            <li id="testimonials"><a href="#testimonials">Testimonials</a></li>
                         </ul>
-                        <div class="navbar-form pull-right">
-                          <a class="brand">Something to pull right</a>
-                        </div>
                     </div><!--/.nav-collapse -->
                 </div>
             </div>
@@ -71,9 +69,10 @@
 
           <!-- #homeContainer -->
           <div id="homeContainer">
+            <div class="hero-unit lessPad">
+              <h3>We Solve Packaging , Printing, Warehousing Problems for Major Corporations</h3>
+            </div>
             <!--  Carousel -->
-            <!--  consult Bootstrap docs at 
-                  http://twitter.github.com/bootstrap/javascript.html#carousel -->
             <div id="this-carousel-id" class="carousel slide">
               <div class="carousel-inner">
                 <div class="item active">
@@ -157,18 +156,95 @@
 
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit">
-                <h2>We Solve Packaging , Printing, Warehousing Problems for Major Corporations</h2>
                 <p>Since 1980, the Hatch Family has been developing creative printing, packaging and displays for a wide variety of clients throughout the northeast.
 
                 Utilizing our state of the art production equipment, our structural and graphic design team, and our warehousing programs, we always deliver quality, low cost products on time - everytime.
 
                 We look forward to the opportunity to partner with your organization and demonstrate the difference that our expertise can bring to your next packaging, printing, or display project.</p>
-                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+                <!--p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p-->
             </div>
 
           </div>
           <!-- / #homeContainer -->
 
+          <!-- #packagingContainer -->
+          <div id="packagingContainer" class="hide">
+            <div class="row">
+              <div class="span12">
+                <h1>Packaging</h1>
+              </div>
+            </div>
+            <div class="hero-unit">
+              <p> HERO!</p>
+            </div>
+          </div>
+          <!-- / #packagingContainer -->
+
+
+          <!-- #printingContainer -->
+          <div id="printingContainer" class="hide">
+            <div class="row">
+              <div class="span12">
+                <h1>Printing</h1>
+              </div>
+            </div>
+            <div class="hero-unit">
+              <p> HERO!</p>
+            </div>
+          </div>
+          <!-- / #printingContainer -->
+
+          <!-- #displaysContainer -->
+          <div id="displaysContainer" class="hide">
+            <div class="row">
+              <div class="span12">
+                <h1>Displays</h1>
+              </div>
+            </div>
+            <div class="hero-unit">
+              <p> HERO!</p>
+            </div>
+          </div>
+          <!-- / #displaysContainer -->
+
+          <!-- #warehousingContainer -->
+          <div id="warehousingContainer" class="hide">
+            <div class="row">
+              <div class="span12">
+                <h1>Warehousing Specialties</h1>
+              </div>
+            </div>
+            <div class="hero-unit">
+              <p> HERO!</p>
+            </div>
+          </div>
+          <!-- / #warehousingContainer -->
+
+          <!-- #showcaseContainer -->
+          <div id="showcaseContainer" class="hide">
+            <div class="row">
+              <div class="span12">
+                <h1>Showcase</h1>
+              </div>
+            </div>
+            <div class="hero-unit">
+              <p> HERO!</p>
+            </div>
+          </div>
+          <!-- / #showcaseContainer -->
+
+          <!-- #testimonialsContainer -->
+          <div id="testimonialsContainer" class="hide">
+            <div class="row">
+              <div class="span12">
+                <h1>Testimonials</h1>
+              </div>
+            </div>
+            <div class="hero-unit">
+              <p> HERO!</p>
+            </div>
+          </div>
+          <!-- / #testimonialsContainer -->
 
             <!-- Example row of columns -->
             <div class="row">
