@@ -31,7 +31,7 @@ $(document).ready(function(){
   // testimonials
   navigationControl( "#testimonials", "#testimonialsContainer", "#homeContainer, #packagingContainer, #printingContainer, #displaysContainer, #warehousingContainer, #showcaseContainer, #designContainer, #equiptmentContainer" );
   // design
-  navigationControl( "#design", "#designContainer", "#homeContainer, #packagingContainer, #printingContainer, #displaysContainer, #warehousingContainer, #showcaseContainer, #testimonialsContainer, #equiptmentContainer" );
+  navigationControl( "#design", "#designContainer", "#homeContainer, #packagingContainer, #printingContainer, #displaysContainer, #warehousingContainer, #showcaseContainer, #testimonialsContainer, #designContainer, #equiptmentContainer" );
   // equiptment
   navigationControl( "#equiptment", "#equiptmentContainer", "#homeContainer, #packagingContainer, #printingContainer, #displaysContainer, #warehousingContainer, #showcaseContainer, #testimonialsContainer, #designContainer" );
 
