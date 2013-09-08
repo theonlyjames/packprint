@@ -5103,7 +5103,7 @@ a.list-group-item:focus {
   padding-left: 15px;
   padding-right: 15px; }
 
-.hide {
+.hideen {
   display: none; }
 
 .hero-unit.lessPad {
@@ -5112,3 +5112,6 @@ a.list-group-item:focus {
   margin-bottom: 0px; }
   .hero-unit.lessPad h3 {
     text-align: center; }
+
+.sectionContainer {
+  -webkit-transition: opacity 0.4s ease-in-out; }
