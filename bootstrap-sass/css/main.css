@@ -1,22 +1,113 @@
+#logoGrid {
+  margin: 10px 0 10px 0; }
 
+.exxon {
+  background-image: url(../img/logos/exxon.png); }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.remington {
+  background-image: url(../img/logos/remington.png); }
 
+.moss {
+  background-image: url(../img/logos/moss.png); }
 
+.corburn {
+  background-image: url(../img/logos/corburn.png); }
 
+.kaba {
+  background-image: url(../img/logos/kaba.png); }
 
+.rayovac {
+  background-image: url(../img/logos/rayovac.png); }
 
+.cirrus {
+  background-image: url(../img/logos/cirrus.png); }
 
+.winchester {
+  background-image: url(../img/logos/winchester.png); }
 
+.stanley {
+  background-image: url(../img/logos/stanley.png); }
 
+.mobil {
+  background-image: url(../img/logos/mobil.png); }
 
+.lego {
+  background-image: url(../img/logos/lego.png); }
 
+.bobs {
+  background-image: url(../img/logos/bobs.png); }
 
+.hospital {
+  background-image: url(../img/logos/hospital.png); }
 
+.kx {
+  background-image: url(../img/logos/kx.png); }
 
+.sargent {
+  background-image: url(../img/logos/sargent.png); }
 
+.bristol {
+  background-image: url(../img/logos/bristol.png); }
 
+.sweet {
+  background-image: url(../img/logos/sweet.png); }
 
+.emerson {
+  background-image: url(../img/logos/emerson.png); }
 
+.benchmark {
+  background-image: url(../img/logos/benchmark.png); }
+
+.ferguson {
+  background-image: url(../img/logos/ferguson.png); }
+
+.oreck {
+  background-image: url(../img/logos/oreck.png); }
+
+.vera {
+  background-image: url(../img/logos/vera.png); }
+
+.lori {
+  background-image: url(../img/logos/lori.png); }
+
+.bcms {
+  background-image: url(../img/logos/bcms.png); }
+
+.tomm {
+  background-image: url(../img/logos/tomm.png); }
+
+.sand {
+  background-image: url(../img/logos/sand.png); }
+
+.piat {
+  background-image: url(../img/logos/piat.png); }
+
+.logoPP {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60px;
+  margin-bottom: 10px; }
+
+.navbar:first-child {
+  border-bottom: 1px solid #999; }
+
+.top-40 {
+  top: 42px; }
+
+.lrPad15 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.hideen {
+  display: none; }
+
+.hero-unit.lessPad {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-bottom: 0px; }
+  .hero-unit.lessPad h3 {
+    text-align: center; }
+
+.sectionContainer {
+  -webkit-transition: opacity 0.4s ease-in-out; }
