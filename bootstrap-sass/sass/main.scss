@@ -21,6 +21,19 @@ $logos: exxon, remington, moss, corburn, kaba, rayovac, cirrus, winchester, stan
 }
 
 
+//@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 979px) {
+  .logoPP {
+    background-size: 75% 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .logoPP {
+    background-size: 75% 100% !important;
+  }
+}
+
+
 // Nav
 .navbar:first-child {
   border-bottom: 1px solid #999;
