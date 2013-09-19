@@ -31,6 +31,10 @@ $logos: exxon, remington, moss, corburn, kaba, rayovac, cirrus, winchester, stan
   .logoPP {
     background-size: 75% 100% !important;
   }
+  // Hide the logo grid for phones
+  #logoGrid {
+    display: none;
+  }
 }
 
 

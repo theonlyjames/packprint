@@ -94,7 +94,10 @@
     background-size: 75% 100% !important; } }
 @media (max-width: 767px) {
   .logoPP {
-    background-size: 75% 100% !important; } }
+    background-size: 75% 100% !important; }
+
+  #logoGrid {
+    display: none; } }
 .navbar:first-child {
   border-bottom: 1px solid #999; }
 
